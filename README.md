@@ -1,7 +1,7 @@
 # noycetroller-motion-control-left-master-
 
 ******
-This is the motion control version of the noyctroller. I added the I2c dev and MPU6050 as local files because I couldn't get them to install as a library in arduino, so all the files i've included are necessary unless you install the i2cdev and mpu6050 libraries.
+This is the motion control version of the noyctroller. I added the I2c dev and MPU6050 as local files because I couldn't get them to install as a library in arduino, so all the files i've included are necessary unless you install the i2cdev and mpu6050 libraries. Since these are local files, these all need to be in the same folder. 
 
 This code will be split into two side, left and right, left being the primary (master) i2c and right being secondary. The MPU6050s are also connected via i2c.
 
